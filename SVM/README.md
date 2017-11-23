@@ -15,3 +15,5 @@ The instances located on the edge of this space are called <b>Support Vectors</b
 Notes:
 - 2 techniques: hard margin, soft margin (the last one is the most used, because more flexible)
 - SVM is sensible to scaling
+
+Reference: https://www.amazon.it/Hands-Machine-Learning-Scikit-Learn-TensorFlow-ebook/dp/B06XNKV5TS
