@@ -5,10 +5,9 @@
 
 <p>Decision Trees are, like SVMs, among the main algorithms in Machine Learning because of their versatility. Indeed, they can be used for both classification and regression and even multioutput tasks. Furthermore, they are the pillars of Random Forest, one of the most powerful Machine Learning algorithm.</p>
 
-<h3>Notes about DTs:</h3>
-- Computational complexity?
-<b>O(n x mlog(m))</b>
-<b>Nonparametric</b> model (pay attention to overfitting)
+Notes about DTs:
+- Computational complexity? <b>O(n x mlog(m))</b>
+- <b>Nonparametric</b> model (pay attention to overfitting)
 - Scikit uses the <b>CART algorithm</b> by default
 - <b>Don't<b> require scaling
 - Sensitive to training set <b>rotation</b>
