@@ -1,6 +1,6 @@
 <h1>Dimensionality Reduction</h1>
 
-![inversion]("img/inversion.png")
+![inversion](img/inversion.png)
 
 <h2>What's the problem?</h2>
 <p>The problem is the <b>Curse of dimensionality</b>:
