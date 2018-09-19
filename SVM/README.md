@@ -1,19 +1,25 @@
-<h1>SVM - Support Vector Machine</h1>
+# SVM - Support Vector Machine
 
-Support Vector Machine is one of the most popular models in Machine Learning. Its popularity stems from the fact that it can be used for <i>linear or nonlinear classification</i> and <i>regression</i> as well. 
+![svm](https://upload.wikimedia.org/wikipedia/commons/1/1b/Kernel_Machine.png)
 
-<h3>When to use it?</h3> With complex but small or medium size datasets.
+Support Vector Machine is one of the most popular models in Machine Learning. Its popularity stems from the fact that it can be used for **linear or nonlinear classification** and **regression** as well. 
 
-<h3>How it works?</h3>
+### When to use it? 
+With complex but small or medium size datasets.
+
+### How it works?
 Sometimes, although our classes are linearly separable, methods like Linear Regression may not work properly.
-SVM classifier not only separates the classes, but also stays as far away from the closest training instances as possible.<br><br>
-The space divided by the SVM's line is called <b>Large Margin Classifier</b>:
+SVM classifier not only separates the classes, but also stays as far away from the closest training instances as possible.
+The space divided by the SVM's line is called **Large Margin Classifier**:
 in general the larger the margin the lower the generalization error of the classifier.
 
-The instances located on the edge of this space are called <b>Support Vectors</b>.
+The instances located on the edge of this space are called **Support Vectors**.
 
-Notes:
+### Notes:
 - 2 techniques: hard margin, soft margin (the last one is the most used, because more flexible)
 - SVM is sensible to scaling
 
-Reference: https://www.amazon.it/Hands-Machine-Learning-Scikit-Learn-TensorFlow-ebook/dp/B06XNKV5TS
+### References: 
+- [Hands-On Machine Learning with Scikit-Learn & Tensorflow](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646)
+- [Wikipedia](https://en.wikipedia.org/wiki/Support_vector_machine)
+- [OpenCV tutorial](https://docs.opencv.org/2.4/doc/tutorials/ml/introduction_to_svm/introduction_to_svm.html)
